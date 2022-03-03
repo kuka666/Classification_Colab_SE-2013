@@ -1,22 +1,26 @@
-# Authentication-flask-psql
-Blockchain analytics tool using Django![image](https://user-images.githubusercontent.com/80199144/152834294-4a743b07-213d-4157-bb57-f0cfed651102.png)
+# Image classification service using Django and Keras![image](https://user-images.githubusercontent.com/80199144/156666050-0f00d587-e6a8-4035-887c-6ce12a629b91.png)
 
 
 ### Instalation
 Install our repoisitory 
 ```bash
-https://github.com/kuka666/Django-Eth-Charts.git
+https://github.com/kuka666/Classification_Colab_SE-2013.git
 pip install -r requirements.txt
 
 Also create table in postgresql:
 
-Create the database with name eth
+Create the database with name imagepostgresql
 python manage.py makemigrations python manage.py migrate python manage.py runserver
 ```
 
 ```bash
 #change your setting
-DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': 'database name', #YOUR DATABASE NAME 'USER': 'postgres', #USER NAME 'PASSWORD': 'postgresql password', #YOUR PASSWORD 'HOST': 'localhost', } } 
+DATABASES = { 'default': 
+              { 'ENGINE': 'django.db.backends.postgresql', 
+              'NAME': 'database name', #YOUR DATABASE NAME 
+              'USER': 'postgres', #USER NAME 'PASSWORD': 
+              'postgresql password', #YOUR PASSWORD
+              'HOST': 'localhost', } } 
 
 ```
 ### Usage
@@ -24,12 +28,10 @@ DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql', 'NAME': 'd
 python manage.py runserver
 ```
 
-### in the 19 and 20 rows write the usernmae and password
+### 
 ```bash
 run the server in compilator 
-http://127.0.0.1:8000/       for bar chart
-http://127.0.0.1:8000/pie/   for pie chart
-http://127.0.0.1:8000/line/  for line chart
+http://127.0.0.1:8000/   to check 
 ```
 
 
